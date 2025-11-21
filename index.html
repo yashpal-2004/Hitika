@@ -113,6 +113,46 @@
             </div>
         </section>
 
+        <!-- Memories Gallery (Horizontal Scroll) -->
+        <section class="memories-section">
+            <h2>Our Beautiful Memories</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/3.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/5.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Relationship Countdown -->
+        <section class="countdown-section">
+            <h2>Time Since We Met</h2>
+            <div id="countdown" class="countdown-grid">
+                <div class="time-box">
+                    <span id="days">0</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="time-box">
+                    <span id="hours">0</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">0</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">0</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+            <p class="countdown-note">And counting...</p>
+        </section>
+
         <!-- Hidden Messages Section -->
         <section class="hidden-messages">
             <h2>Little Reminders</h2>
@@ -148,6 +188,18 @@
         </section>
 
     </main>
+
+    <!-- Floating Music Button -->
+    <div class="music-control">
+        <button id="music-btn" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+        <!-- Replace 'music.mp3' with your actual song file -->
+        <audio id="bg-music" loop>
+            <source src="music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
     <footer>
         <p>Made with ❤️ for you by Yash.</p>
